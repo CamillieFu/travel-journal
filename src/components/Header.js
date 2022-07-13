@@ -1,5 +1,6 @@
 import React from "react"
 import globeLogo from "../images/globe.png"
+import '../css/Header.css';
 
 export default function Header() {
   return (

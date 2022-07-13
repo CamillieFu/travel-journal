@@ -1,4 +1,4 @@
-@import './Header.css';
+/* @import './Header.css'; */
 
 .App {
   text-align: center;
@@ -37,4 +37,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.travel-cards-list {
+  padding: 3rem 3rem;
 }

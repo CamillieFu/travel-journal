@@ -1,42 +1,30 @@
 const data = [
   {
     id: 1,
-    title: "Life Lessons with Katie Zaferes",
-    description: "I will share with you what I call \"Positively Impactful Moments of Disappointment.\" Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.",
-    price: 136,
-    coverImg: "katie-zaferes.png",
-    stats: {
-      rating: 5.0,
-      reviewCount: 6
-    },
-    location: "Online",
-    openSpots: 0,
+    destination: "Mount Fuji",
+    location: "Japan",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam atque illo at sed accusantium ab ex corporis? Distinctio voluptatibus eum aperiam doloremque est aliquam natus. Ipsum aut reprehenderit unde autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam atque illo at sed accusantium ab ex corporis? Distinctio voluptatibus eum aperiam doloremque est aliquam natus. Ipsum aut reprehenderit unde autem.",
+    date: "March 2022",
+    img: "https://thumbnails.production.thenounproject.com/qzr22wYYKM5K-Dt6xdTTUY722Fw=/fit-in/1000x1000/photos.production.thenounproject.com/photos/arakurayama_sengen_park_near_fuji_mountain_in_japan-scopio-0a5f903a-bff7-49ed-89_Uld5TVo.jpeg",
+    googleMapsLink: "www.google.com",
   },
   {
     id: 2,
-    title: "Learn Wedding Photography",
-    description: "Interested in becoming a wedding photographer? For beginner and experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
-    price: 125,
-    coverImg: "wedding-photography.png",
-    stats: {
-      rating: 5.0,
-      reviewCount: 30
-    },
-    location: "Online",
-    openSpots: 27,
+    destination: "Florence Museum",
+    location: "Italy",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam atque illo at sed accusantium ab ex corporis? Distinctio voluptatibus eum aperiam doloremque est aliquam natus. Ipsum aut reprehenderit unde autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam atque illo at sed accusantium ab ex corporis? Distinctio voluptatibus eum aperiam doloremque est aliquam natus. Ipsum aut reprehenderit unde autem.",
+    date: "March 2022",
+    img: "https://thumbnails.production.thenounproject.com/OAROaJz-sbcGUmJR6z5PTa1KrQs=/fit-in/1000x1000/photos.production.thenounproject.com/photos/aerial_view_of_city_of_florence_during_night_time-scopio-5bad1cfa-b9b0-42bd-a814-_QxIV0yU.jpg",
+    googleMapsLink: "www.google.com",
   },
   {
     id: 3,
-    title: "Group Mountain Biking",
-    description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
-    price: 50,
-    coverImg: "mountain-bike.png",
-    stats: {
-      rating: 4.8,
-      reviewCount: 2
-    },
-    location: "Norway",
-    openSpots: 3,
+    destination: "Dominicana Beach",
+    location: "Dominica",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam atque illo at sed accusantium ab ex corporis? Distinctio voluptatibus eum aperiam doloremque est aliquam natus. Ipsum aut reprehenderit unde autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam atque illo at sed accusantium ab ex corporis? Distinctio voluptatibus eum aperiam doloremque est aliquam natus. Ipsum aut reprehenderit unde autem.",
+    date: "March 2022",
+    img: "https://thumbnails.production.thenounproject.com/3lcO1jwCAp-FyGB-S5Qwl9SpaBA=/fit-in/1000x1000/photos.production.thenounproject.com/photos/85D903B8-DA54-410C-A406-2B56E8572159.jpg",
+    googleMapsLink: "www.google.com",
   }
 ]
 

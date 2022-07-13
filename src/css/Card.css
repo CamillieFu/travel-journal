@@ -1,0 +1,27 @@
+.card--contents {
+  display: flex;
+  text-align: justify;
+}
+
+.card {
+  border-bottom: lightgray 1px solid;
+  padding: 1rem;
+}
+
+.card:last-child  {
+  border-bottom: none;
+}
+
+.card--maps {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card--image {
+  margin-right: 16px;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
