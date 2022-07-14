@@ -3,6 +3,7 @@ import '../css/Card.css';
 
 export default function Card(props) {
   return(
+    <>
     <div className="card">
       <div className="card--contents">
         <img
@@ -12,14 +13,16 @@ export default function Card(props) {
         />
         <div className="card--text">
           <div className="card--maps">
-            <h3>{props.location}</h3>
-            <a href={`${props.googleMapsLink}`}>View on google maps</a>
+            <h3 className="card--location">{props.location.toUpperCase()}</h3>
+            <a href={`${props.googleMapsLink}`} className="card--map-link">View on google maps</a>
           </div>
-          <h1>{props.destination}</h1>
-          <p>{props.date}</p>
-          <p>{props.description}</p>
+          <h1 className="card--destination">{props.destination}</h1>
+          <p className="card--date">{props.date}</p>
+          <p className="card--description">{props.description}</p>
         </div>
       </div>
     </div>
+    <div className="card--border"></div>
+    </>
   )
 }

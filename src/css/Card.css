@@ -4,11 +4,15 @@
 }
 
 .card {
-  border-bottom: lightgray 1px solid;
+padding-top: 2rem;
+}
+
+.card--border {
+  border-bottom: 1px solid #F5F5F5;
   padding: 1rem;
 }
 
-.card:last-child  {
+.card--border:last-child  {
   border-bottom: none;
 }
 
@@ -20,8 +24,45 @@
 
 .card--image {
   margin-right: 16px;
-  height: 300px;
+  height: 350px;
   width: 300px;
   object-fit: cover;
   border-radius: 8px;
+}
+
+.card--destination {
+  font-size: 36px;
+  margin-top: -8px;
+  color: #2B283A;
+}
+
+.card--location {
+  font-weight: 400;
+  color: #2B283A;
+}
+
+.card--description {
+  font-size: 16px;
+  color: #2B283A;
+}
+
+.card--map-link {
+  text-decoration: none;
+  color: gray;
+}
+
+.card--date {
+  color: #2B283A;
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .card--contents {
+    display: block;
+  }
+
+  .card--image {
+    width: 250px;
+    height: 250px;
+  }
 }
