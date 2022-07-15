@@ -1,6 +1,7 @@
 .card--contents {
   display: flex;
   text-align: justify;
+  font-family: 'Inter', sans-serif;
 }
 
 .card {
